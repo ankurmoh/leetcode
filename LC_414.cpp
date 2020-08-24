@@ -1,7 +1,7 @@
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
-        int i,len=nums.size(),firstmax,secondmax,thirdmax,ans,con1=0,con2=0,flag=0;
+        int i,len=nums.size(),firstmax,secondmax,thirdmax,ans,flag=0;
         firstmax=INT_MIN;
         secondmax=INT_MIN;
         thirdmax=INT_MIN;
