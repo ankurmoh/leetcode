@@ -4,7 +4,7 @@ public:
         int i,sz=costs.size();
         if(sz==0)
             return 0;
-       vector<int>red(sz+1,0);
+        vector<int>red(sz+1,0);
         vector<int>blue(sz+1,0);
         vector<int>green(sz+1,0);
         red[0]=costs[0][0];

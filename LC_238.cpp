@@ -19,13 +19,6 @@ public:
             end.push_back(res);
         }
         reverse(end.begin(),end.end());
-        for(i=0;i<len;i++)
-            cout<<begin[i]<<" ";
-        cout<<endl;
-        for(i=0;i<len;i++)
-            cout<<end[i]<<" ";
-        for(i=0;i<len;i++)
-            nums[i]=-1;
         nums[0]=end[1];
         nums[len-1]=begin[len-2];
         for(i=1;i<len-1;i++)
