@@ -12,7 +12,7 @@ public:
         if(it==mp.end())
         {
             vals.push_back(val);
-            mp.insert(make_pair(val,vals.size()-1));
+            mp[val] = vals.size()-1;
             return true;
         }
         return false;
@@ -46,5 +46,3 @@ public:
  * bool param_2 = obj->remove(val);
  * int param_3 = obj->getRandom();
  */
-
- 
