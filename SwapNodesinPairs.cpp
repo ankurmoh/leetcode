@@ -22,7 +22,7 @@ public:
             first->next = second->next;
             second->next = first;
             prev = first;
-            head = first->next;
+            head = prev->next;
         }
         return dummy->next;
     }
